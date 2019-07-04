@@ -1,0 +1,102 @@
+
+.index_header{
+	background-color: #000;
+	height: 25px;
+
+}
+.login_header{
+	background-color: #000;
+	height: 25px;	
+}
+.menue{
+	height: 6px;
+	float: right;
+	margin-right: 150px;
+}
+.menuelink:hover{
+	
+	border-right:1px solid white ;
+	border-left: 1px solid white;
+	height: 40px;
+	color: white;
+}
+.menuelink{
+	margin-right: 5px;
+	color: white;
+}
+
+.index_footer{
+	background-color: #000;
+	height: 25px;
+}
+.login_footer{
+	background-color: #000;
+	height: 25px;
+}
+.dp{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	float: left;
+	clear: both;
+	border: 1px solid gray;
+}
+.image{
+	margin:;
+	clear: both;
+
+}
+.details{
+	float: right;
+	clear: both;
+	bottom: 100px;
+}
+
+h5 ,h2{
+	text-align: center;
+}
+.page_content{
+	min-height: 250px;
+	padding: 15px;
+	border: 1px solid #f0f0f0 ;
+}
+.links{
+	width: 100%;
+	margin: 10px,10px;
+	height: 25px;
+	background-color: #000;
+}
+.link{
+	margin-right: 8px;
+	height: 16px;
+	width: 16px;
+}
+.link:hover{
+	border-right:1px solid white ;
+	border-left: 1px solid white;
+	height: 20px;
+	width: 18px;
+	color: white;
+}
+
+.galarydisplay{
+	min-height: 200px;
+	min-width: 180px;	
+}
+.pic{
+	z-index: 1;
+	
+}
+.pic:hover{
+	 
+	height: 500px;
+	width: 300px;
+	z-index: 999; 
+	position: relative;
+	border-collapse: collapse;
+	border: 4px solid #f0f0f0 ;
+}
+.description{
+	min-height: 100px;
+	text-align: justify;
+}

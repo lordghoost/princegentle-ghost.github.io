@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<title>javascript</title>
+</head>
+<body>
+
+		<p> lets play a game, try to predict the right numer the system have numbers within(1-5)</p>
+
+		<p >enter your number:</p>
+
+		<p><input type="numbers" id="input"></p>
+		<p><button id="button">submit</button></p>
+	
+	<script type="text/javascript">
+
+	//document.getElementById("button").onclick=function(){
+		
+		document.getElementById("button").onclick=function() {
+			var input = document.getElementById("input").value;
+			//alert(input);
+
+			var systemnumbers= Math.floor(Math.random()*9);
+			//alert(systemnumbers);
+
+			if (input == systemnumbers) {
+				alert("congrations you got it");
+			}else alert("sorry you failed it the right answer is "+ systemnumbers);
+		} 
+
+	</script>
+</body>
+</html>
